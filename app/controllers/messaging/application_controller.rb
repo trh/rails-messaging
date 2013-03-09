@@ -5,5 +5,7 @@ module Messaging
     def current_messaging_user
       current_user
     end
+
+    helper_method :current_messaging_user
   end
 end
